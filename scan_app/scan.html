@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!--
+Commenting this out until I can figure out the manifest stuff for installing as an app.
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    -->
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/t351-scan.css">
+    <title>T-351 Gear Scanner</title>
+  </head>
+
+  <body>
+<div id="mobileshow">
+    <!-- Div to show the scanner -->
+    <div id="scanner-container"></div> 
+    <div id="initializing">
+        ...INITIALIZING SCANNER...
+    </div>
+    <img id="loading-gif" src="assets/t-351-loading-crest.gif">
+    <span id="ptn_scoutbook_gear_title"><p>
+      Troop 351
+      Gear Scanner
+      </p></span>
+    <div id="ptn_scoutbook_gear_description">
+      Scan barcodes to check in/out gear.
+      <p><img id="ptn_scoutbook_gear_barcode" src="assets/T351BarCode.png"></p>
+    </div>
+ </div><!--mobileshow-->
+ <div id="mobilehide">
+    To use this app:
+    (1) Open on a mobile browser / smartphone
+    (2) Save to HomeScreen for quick access
+ </div>
+
+    <script src="js/quagga.min.js"></script>
+    <script src="js/t351-scan.js"></script>
+  </body>
+</html>

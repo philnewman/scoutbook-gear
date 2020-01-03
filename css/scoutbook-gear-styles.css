@@ -1,0 +1,77 @@
+/**
+ * Plugin Name: Scoutbook  Gear
+ * Plugin URI: http://troop351.org/plugins/scoutbook-gear
+ * Description:
+ * Version: 0.1
+ * Author: Phil Newman
+ * Author URI: http://getyourphil.net
+ * License: GPL3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+ **/
+body.checkinout {
+    background-image: url("../assets/crestlogo-yellow-orange-25opacity.png");
+ /*   background-size:     contain;                  
+    background-repeat:   no-repeat;
+    background-position: center center; 
+} */
+no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#ptn_scoutbook_checkinout label {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  float: left;
+  clear:left;
+  width: 30%;
+  text-align: right;
+  margin-right: 20%;
+}
+#ptn_scoutbook_checkinout input, textarea {
+  display: inline-block;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  font-size: xx-large !important;
+  box-sizing: content-box;
+  opacity: .8;
+}
+#ptn_scoutbook_checkinout textarea{
+  line-height: 140px;
+}
+#ptn_scoutbook_checkinout button {
+  clear: both;
+  font-size: xx-large !important;
+  margin-left: 15% !important;
+}
+#ptn_scoutbook_checkinout .result{
+  font-size: xx-large;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+.post-type-archive-gear th, td, .post-type-gear td, th{
+  padding: 15px !important;
+}
+.post-type-archive-gear, .post-type-gear table {
+  layout:fixed;
+  background-color: white;
+}
+.post-type-archive-gear table td:nth-of-type(1) {width: 10%;}
+.post-type-archive-gear table td:nth-of-type(2) {width: 25%;}
+.post-type-archive-gear table td:nth-of-type(3) {width: 25%;}
+.post-type-archive-gear table td:nth-of-type(4) {width: 40%;}
+.post-type-archive-gear tr:hover {background-color: #cecece;}
+#the_gear table{
+  y-overflow: scroll;
+  height: 200px;
+  layout:fixed;
+  background-color: white;
+}
+.post-type-archive-gear .pagination{
+  padding-top: 15px;
+}

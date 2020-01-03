@@ -1,0 +1,69 @@
+/* In order to place the tracking correctly */
+body{   
+    background-image: url("../assets/crestlogo-yellow-orange-25opacity.png");
+    background-size:     contain;                  
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+canvas.drawing, canvas.drawingBuffer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 25px;
+    width: 360px;
+}
+body {
+  font-size: 25px;
+  background-color: #F2F2F2;
+}
+#initializing {
+  color: white;
+  font-size:large;
+  font-weight:bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left:100px;
+  padding-top:110px;
+}
+#loading-gif {
+/*    position: absolute;
+    top: 75px;
+    left 50%;
+    margin-left: 100px;
+    z-index: 1;
+  */
+    display: table;
+    height: 50px;
+    margin: 0 auto;
+    z-index: 1;
+}
+#ptn_scoutbook_gear_icon {
+  height: 25px;
+  display: inline-block;
+  float: left;
+}
+#ptn_scoutbook_gear_title {
+  font-size: x-large;
+  font-weight: bold;
+  display: table;
+  margin: 0 auto;
+}
+#ptn_scoutbook_gear_description{
+  font-size: smaller;
+  display: table;
+  margin: 0 auto;
+}
+#ptn_scoutbook_gear_description img{
+  display: table;
+  height: 50px;
+  margin: 0 auto;
+}
+video {
+  width: 360px;
+  margin: 25px;
+}
+#mobileshow, #mobilehide{
+  display:none;
+}
